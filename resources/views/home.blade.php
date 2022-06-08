@@ -34,30 +34,27 @@
                         <ul class="blok lg:flex">
                             <li class="group">
                                 <a href="#home"
-                                    class="text-base flex text-dark py-2 mx-8 group-hover:text-primary">Beranda</a>
+                                    class="text-base flex text-dark py-2 mx-8 group-hover:text-primary">Home</a>
                             </li>
                             <li class="group">
                                 <a href="#about"
-                                    class="text-base flex text-dark py-2 mx-8 group-hover:text-primary">Tentang Saya</a>
+                                    class="text-base flex text-dark py-2 mx-8 group-hover:text-primary">Shop</a>
                             </li>
                             <li class="group">
                                 <a href="#portfolio"
-                                    class="text-base flex text-dark py-2 mx-8 group-hover:text-primary">Portfolio</a>
+                                    class="text-base flex text-dark py-2 mx-8 group-hover:text-primary">Sign-In</a>
                             </li>
+
                             <li class="group">
-                                <a href="#cliens"
-                                    class="text-base flex text-dark py-2 mx-8 group-hover:text-primary">Cliens</a>
+                                <a href="#portfolio"
+                                    class="text-base flex text-dark py-2 mx-8 group-hover:text-primary">Sign-Up</a>
                             </li>
-                            <li class="group">
-                                <a href="#blog"
-                                    class="text-base flex text-dark py-2 mx-8 group-hover:text-primary">Blog</a>
-                            </li>
-                            <li class="group">
-                                <a href="#contact"
-                                    class="text-base flex text-dark py-2 mx-8 group-hover:text-primary">Contact</a>
-                            </li>
+                            
                         </ul>
                     </nav>
+                </div>
+                <div class="w-48 h-12 border-1 shadow rounded">
+                    <input type="text" placeholder="Search" class="w-48 h-12">
                 </div>
             </div>
         </div>
@@ -123,22 +120,24 @@
 
     {{-- store start  --}}
     <div class="relative w-full bg-emerald-800 flex">
-        <div class="container py-10 md:flex justify-between">
-            <div class="container w-40 h-40 flex flex-col rounded-md bg-rose-200 px-6  items-center">
-                <img src="{{ asset('img/product2.png') }}" alt="product-1" width="200px">
+        <div class="container py-10 md:flex justify-between md:ml-10">
+            <a href=""class="container w-48 h-48 flex flex-col mx-10 rounded-md bg-rose-200 px-6 items-center hover:animate-pulse">
+                <img src="{{ asset('img/product2.png') }}" alt="product-1" width="300px">
+                <h4 class="font-semibold text-md text-dark inline-block mx-auto">Lorem, ipsum.</h4>
+            </a>
+            <div class="container w-48 h-48 flex flex-col mx-10 rounded-md bg-lime-200 px-6  items-center mt-10 md:mt-0 md:absolute md:-top-10 md:left-[24%]  hover:animate-pulse">
+                <img src="{{ asset('img/product2.png') }}" alt="product-1" width="300px">
                 <h4 class="font-semibold text-md text-dark inline-block mx-auto">Lorem, ipsum.</h4>
             </div>
-            <div class="container w-40 h-40flex flex-col rounded-md bg-rose-200 px-6  items-center mt-10 md:mt-0">
-                <img src="{{ asset('img/product2.png') }}" alt="product-1" width="200px">
+            <div class="container w-48 h-48 flex flex-col mx-10 rounded-md bg-sky-200 px-6  items-center mt-10 md:mt-0  hover:animate-pulse">
+                <img src="{{ asset('img/product2.png') }}" alt="product-1" width="300px">
                 <h4 class="font-semibold text-md text-dark inline-block mx-auto">Lorem, ipsum.</h4>
             </div>
-            <div class="container w-40 h-40flex flex-col rounded-md bg-rose-200 px-6  items-center mt-10 md:mt-0">
-                <img src="{{ asset('img/product2.png') }}" alt="product-1" width="200px">
-                <h4 class="font-semibold text-md text-dark inline-block mx-auto">Lorem, ipsum.</h4>
-            </div>
+            <a href="" class="font-base text-md text-white absolute md:left-[32%] md:top-48">See All👌</a>
         </div>
-        <div class="md:w-1/3 md:mx-5">
-            <h1 class="font-semibold text-4xl text-dark ">Lorem, ipsum dolor.</h1>
+        <div class="md:w-[700px] md:mx-5 md:pt-10">
+            <h1 class="font-semibold text-4xl text-white md:text-5xl">Lorem, ipsum dolor.</h1>
+            <p class="font-base text-sm text-white mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, ea. Recusandae quis eius non dolore vitae magni voluptatum incidunt illum.</p>
         </div>
     </div>
     {{-- store end  --}}
